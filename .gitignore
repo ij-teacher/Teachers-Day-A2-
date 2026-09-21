@@ -1,0 +1,8 @@
+__pycache__/
+node_modules/
+.DS_Store
+preview-*.png
+test-*.mjs
+prepare_materials.py
+materials/*.base64
+_site/

@@ -1,0 +1,14 @@
+{
+  "name": "teachers-day-records",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "db:generate": "drizzle-kit generate"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.0",
+    "drizzle-orm": "^0.44.0",
+    "qrcode": "1.5.4"
+  }
+}

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A2 華語教師節課程：閱讀、生詞、句型與互動練習。">
+  <title>教師節｜A2 華語文化課</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%232e3885'/%3E%3Ctext x='20' y='28' text-anchor='middle' font-size='26' fill='white'%3E學%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css"><script src="config.js" defer></script><script src="app.js" defer></script>
+</head>
+<body>
+  <header class="topbar"><a href="./" class="brand"><span class="brandmark">學</span>華語文化課 <span class="level">A2</span></a><a href="share.html">課程 QR Code</a></header>
+  <main id="main">
+    <section id="entry" class="entry">
+      <div class="intro"><p class="eyebrow">09.28 · 教師節</p><h1>老師，<br>謝謝您。</h1><p class="lead">認識孔子和教師節，<br>用中文說出你的想法。</p><div class="lesson-tags"><span>閱讀</span><span>10 個生詞</span><span>3 個句型</span><span>互動練習</span></div></div>
+      <div class="entry-card"><p class="eyebrow">開始今天的學習</p><h2>先填寫你的學號</h2><p>請使用自己的學號。老師會看到你的進入時間、完成活動和練習成績。</p><form id="entry-form"><label for="student-id">學號 <span lang="en">Student ID</span></label><input id="student-id" name="studentId" autocomplete="off" maxlength="32" pattern="[A-Za-z0-9_-]{2,32}" required placeholder="例如 115123456"><small>請輸入 2–32 個英文字母、數字、底線或連字號。</small><button type="submit" class="primary">開始學習 <span aria-hidden="true">→</span></button><p id="entry-status" role="status" aria-live="polite"></p></form><p class="privacy">只收集學號，不需要姓名或電子郵件。</p></div>
+    </section>
+    <section id="classroom" hidden>
+      <div class="course-heading"><div><p class="eyebrow">A2 · 文化節慶</p><h1>教師節</h1></div><div class="student-tools"><span id="student-label"></span><button id="switch-student" class="text-button">切換學號</button></div></div>
+      <div class="progress-line"><span id="progress-label">完成 0 / 5 個活動</span><progress id="progress" max="5" value="0"></progress></div>
+      <nav class="lesson-nav" aria-label="課程單元"><button data-tab="reading" aria-current="page">01 閱讀</button><button data-tab="vocabulary">02 生詞</button><button data-tab="grammar">03 句型</button><button data-tab="situations">04 情境</button><button data-tab="sentences">05 重組</button><button data-tab="materials">教材下載</button></nav>
+      <div id="panel" tabindex="-1"></div>
+      <div id="save-status" class="save-status" role="status" aria-live="polite"></div>
+    </section>
+  </main>
+  <footer><span>教師節 · A2 華語文化課</span><a href="teacher.html">教師紀錄</a><a href="materials/teachers-day-a2.docx" download>原始 Word 教材</a></footer>
+  <noscript>請開啟 JavaScript 以使用互動活動。你也可以下載頁面下方的 Word 教材。</noscript>
+</body></html>
